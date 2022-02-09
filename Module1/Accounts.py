@@ -28,7 +28,7 @@ class AccountData(Utility):
 
         myLogger.info("function customerWithMultipleAccounts called")
 
-        df_join = self.joinDataFrame(acc_df, cst_df, "customerId", "inner")
+        df_join = self.joinDataFrame(cst_df, acc_df, "customerId", "inner")
         df_res = df_join.groupBy("customerId", "forename", "surname")\
             .agg(F.countDistinct("accountId").alias("NoOfAccounts"))
 
