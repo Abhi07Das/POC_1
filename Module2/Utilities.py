@@ -26,12 +26,12 @@ class Utility:
 
         myLogger.info("Spark Session Created")
 
-    def readFile(self, fmt, path):
+    def readFile(self, fmt, path, sepby):
         """A Function to read any type of file without any schema given"""
 
         try:
             self.df = self.spark.read \
-                .load(path, format=fmt, header=True, inferSchema=True)
+                .load(path, format=fmt, header=True, inferSchema=True, sep=sepby)
         except:
             myLogger.error("Failed to read File")
             print("Failed to read File")

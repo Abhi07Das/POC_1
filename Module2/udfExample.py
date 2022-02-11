@@ -25,7 +25,6 @@ class UDFExample():
         else:
             return None
 
-
     def sample_udf(self, df):
         rank_UDF = udf(lambda x: self.rank_given(x), StringType())
 
