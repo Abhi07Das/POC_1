@@ -1,4 +1,4 @@
-﻿REF_ID;ORIG;BENEF;FEATURE1;FEATURE1_Score;FEATURE2; FEATURE2_Score; FEATURE3;FEATURE3_Score;FEATURE4;FEATURE4_Score;FEATURE5;FEATURE5_Score;TOTAL_Score;PAYMENT_DATE; MONTH
+﻿REF_ID;ORIG;BENEF;FEATURE1;FEATURE1_Score;FEATURE2;FEATURE2_Score;FEATURE3;FEATURE3_Score;FEATURE4;FEATURE4_Score;FEATURE5;FEATURE5_Score;TOTAL_Score;PAYMENT_DATE;MONTH
 1; Meruem;Eric;HighRisk;3; Deposit;2; Transfer;4; Credit;5;Lease;3;17;2017-01-10 11:31:27.948873;201701
 2; Reiner;Elric; Transfer;2; Deposit;4;HighRisk;5; Transfer;1; HighRisk;3;15;2017-01-11 12:01:33.664324;201701
 3; Elric;Meruem;Deposit;3; HighRisk;5; Transfer;3; Credit;5; Deposit;5;21;2017-02-01 09:44:56.123452;201702
@@ -7,9 +7,9 @@
 6; Sanjay;Prakash;HighRisk;1; Deposit;5; Transfer;4; Deposit;5; Credit;3;18;2016-11-01 17:01:00.948878;201611
 7; Prakash; Suman;HighRisk;2; Deposit;2; Transfer;1; Credit;4;Lease;4;13;2016-12-31 06:11:43.456842;201612
 8; Suman;Shivam; Transfer;4; Deposit;3;HighRisk;4; Credit;5;Lease;2;18;2017-02-14 11:23:22.299687;201702
-9; Robert; Edward;Deposit;3; HighRisk;4; Transfer;3; Credit;3; HighRisk;4;17;2017-06-10 11:31:27.948881;201706
+9; Robert; Edward;Deposit;3; HighRisk;4; Transfer;5; Credit;3; HighRisk;4;19;2017-06-10 11:31:27.948881;201706
 10; Daniel;Robert; Credit;5;Lease;1; Transfer;5; Transfer;3; Deposit;2;16;2017-06-10 11:30:27.999999;201706
-11; Alphonse;Daniel;HighRisk;5; Deposit;5; Transfer;3; Credit;4; Deposit;4;21;2017-06-10 11:30:27.000000;201706
+11; Alphonse;Daniel;HighRisk;5; Deposit;3; Transfer;3; Credit;4; Deposit;4;19;2017-06-10 11:30:27.000000;201706
 12; Edward;Alphonse;HighRisk;3; Deposit;2; Transfer;2;HighRisk;2;Lease;3;12;2017-06-10 11:30:27.000001;201706
 13; Anshuman;Prateek;HighRisk;5; Deposit;3; Transfer;2; Credit;5; Credit;5;20;2017-01-10 11:31:27.948885;201901
 14;Abhiroop;Anshuman; Transfer;3; Deposit;2;HighRisk;4; Deposit;4;Lease;1;14;2018-01-11 19:01:17.123897;201801
@@ -22,5 +22,5 @@
 21;Tachibana;Krishna;Deposit;3; HighRisk;5; Transfer;4; Credit;2;Lease;3;17;2017-09-12 16:18:32.248393;201709
 22;Belle;Chang; Credit;1;Lease;2; Transfer;2; Deposit;1;Lease;2;8;2017-03-19 13:51:59.345894;201703
 23;Krishna;Tim;HighRisk;1; Deposit;1; Transfer;5; Credit;4; HighRisk;5;16;2017-02-01 13:31:27.948895;201702
-24;Chang;Belle;HighRisk;2; Deposit;4; Transfer;5; Credit;2; Deposit;3;16;2018-03-10 23:11:57.948896;201803
-25;Tim;Tachibana;HighRisk;3; Deposit;3; Transfer;3; Credit;3; Deposit;1;13;2019-01-09 05:50:22.998797;201901
+24;Chang;Tachibana;HighRisk;2; Deposit;4; Transfer;5; Credit;2; Deposit;3;16;2018-03-10 23:11:57.948896;201803
+25;Tim; Belle;HighRisk;3; Deposit;3; Transfer;3; Credit;3; Deposit;1;13;2019-01-09 05:50:22.998797;201901
