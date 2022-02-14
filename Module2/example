@@ -1,0 +1,12 @@
+def modify_values(r, max_col):
+    l = []
+    for i in range(len(df_col[1:])):
+        if r[i]== max_col:
+            l.append(df_col[i+1])
+    return l
+modify_values_udf = udf(modify_values, StringType())
+
+df1 = df.\
+    withColumn("top1", modify_values_udf(array(df.columns[1:-3]), "top1_val")).\
+    withColumn("top2", modify_values_udf(array(df.columns[1:-3]), "top2_val")).\
+    withColumn("top3", modify_values_udf(array(df.columns[1:-3]), "top3_val"))
