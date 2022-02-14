@@ -7,7 +7,7 @@ class SalesData(Utility):
     def __init__(self, fmt, path):
         """Constructor of Class Sales"""
 
-        myLogger.info("Calling CustomerData Class constructor")
+        myLogger.info("Calling SalesData Class constructor")
         super().__init__()
         schema = StructType()\
             .add('Region', StringType(), True) \
