@@ -12,7 +12,7 @@ class Pipeline(CustomerFeature):
         self.customerFeatureObject = CustomerFeature(fmt, path)
 
     def customer_feature_transform(self):
-        df = self.customerFeatureObject.cst_df
+        df = self.customerFeatureObject.df
         self.customerFeatureObject.customer_transform(df)
 
 

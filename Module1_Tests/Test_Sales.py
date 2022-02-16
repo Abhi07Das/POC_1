@@ -68,7 +68,6 @@ class TestSales(unittest.TestCase):
 
         spark = TestSales.spark
 
-        sample_Data = config.get('paths', 'sample_data')
         #act_df = spark.read.load(sample_Data, format="csv", header=True, inferSchema=True, sep=";")
         act_columns = ["Region", "Item_type", "Units_Sold"]
         act_data = [("Europe", "Household", 282), ("Sub-Saharan Africa", "Household", 2370),

@@ -1,2 +1,5 @@
-INFO 2022-02-09 06:22:24,754 - Calling Utility Class Constructor
-INFO 2022-02-09 06:22:24,754 - Spark Session Created
+INFO 2022-02-16 06:11:10,269 - Calling Pipeline Constructor
+INFO 2022-02-16 06:11:10,269 - Calling Utility Class Constructor
+INFO 2022-02-16 06:11:17,307 - Spark Session Created
+INFO 2022-02-16 06:11:17,307 - Calling CustomerFeature Class constructor
+INFO 2022-02-16 06:11:19,302 - Reading file data.csv

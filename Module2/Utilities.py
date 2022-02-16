@@ -66,10 +66,25 @@ class Utility:
         myLogger.info("File written as " + name)
 
     def joinDataFrame(self, df1, df2, joinOn, joinType):
+        """A function to join two dataframes into one"""
+
         df_res = df1.join(df2, on=joinOn, how=joinType)
         return df_res
 
+    def createDataFramefromList(self, list_given, schema_given):
+        """A function to create dataframe from a list given"""
+        df = self.spark.createDataFrame(list_given, schema=schema_given)
+        return df
+
+    def display_only_required(self, df, colNames):
+        """A function to keep only the required columns in the dataframe"""
+
+        df_res = df.select(colNames)
+        return df_res
+
     def convertToDate(self, df, newColName, colName, formats=("dd-MM-yyyy", "MM/dd/yyyy")):
+        """A function to convert different date formats to one"""
+
         # res_df = df.withColumn(newColName, expr("to_date(colName, fmt)"))
         self.spark.sql("set spark.sql.legacy.timeParserPolicy=LEGACY")
         res_df = df.withColumn(newColName, coalesce(*[to_date(colName, fmt) for fmt in formats]))
